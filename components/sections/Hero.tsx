@@ -22,7 +22,7 @@ export function Hero() {
             Now Serving Growth Strategies
           </Badge>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-[family-name:var(--font-playfair)]">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-serif">
             Welcome to{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Tapas Growth

@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { DM_Sans, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ 
+const dmSans = DM_Sans({ 
   subsets: ["latin"],
-  variable: "--font-inter"
+  variable: "--font-dm-sans"
 });
 
-const playfair = Playfair_Display({ 
+const instrumentSerif = Instrument_Serif({ 
   subsets: ["latin"],
-  variable: "--font-playfair"
+  variable: "--font-instrument-serif",
+  weight: ["400"]
 });
 
 export const metadata: Metadata = {
@@ -38,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className={`${dmSans.variable} ${instrumentSerif.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

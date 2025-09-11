@@ -76,7 +76,7 @@ export function ServicesMenu() {
     <section id="services" className="py-20 bg-card/50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-[family-name:var(--font-playfair)]">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
             Our Menu
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -88,7 +88,7 @@ export function ServicesMenu() {
         <div className="max-w-4xl mx-auto">
           <Card className="border-2 shadow-xl">
             <CardHeader className="text-center pb-8 bg-gradient-to-b from-primary/5 to-transparent">
-              <CardTitle className="text-3xl font-[family-name:var(--font-playfair)]">
+              <CardTitle className="text-3xl font-serif">
                 Growth Services
               </CardTitle>
               <CardDescription className="text-lg mt-2">
@@ -99,7 +99,7 @@ export function ServicesMenu() {
               {menuItems.map((category, categoryIndex) => (
                 <div key={category.category}>
                   <div className="mb-8">
-                    <h3 className="text-2xl font-bold mb-2 text-primary font-[family-name:var(--font-playfair)]">
+                    <h3 className="text-2xl font-bold mb-2 text-primary font-serif">
                       {category.category}
                     </h3>
                     <p className="text-sm text-muted-foreground mb-6">

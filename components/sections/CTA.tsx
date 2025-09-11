@@ -7,7 +7,7 @@ export function CTA() {
       <div className="container mx-auto px-6">
         <Card className="max-w-4xl mx-auto border-2 shadow-xl overflow-hidden">
           <CardContent className="p-12 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-[family-name:var(--font-playfair)]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">
               Ready to <span className="text-primary">Taste Success?</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

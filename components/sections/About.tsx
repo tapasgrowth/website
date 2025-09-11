@@ -6,7 +6,7 @@ export function About() {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-[family-name:var(--font-playfair)]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 font-serif">
               Meet Your <span className="text-primary">Growth Chef</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
@@ -40,7 +40,7 @@ export function About() {
               <CardContent className="p-0">
                 <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
                   <div className="text-center p-8">
-                    <div className="text-6xl mb-4 font-[family-name:var(--font-playfair)]">
+                    <div className="text-6xl mb-4 font-serif">
                       🍽️
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Experience Matters</h3>
