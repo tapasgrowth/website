@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { DM_Sans, Instrument_Serif } from "next/font/google";
+import { Nunito_Sans, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 
-const dmSans = DM_Sans({ 
+const nunitoSans = Nunito_Sans({ 
   subsets: ["latin"],
-  variable: "--font-dm-sans"
+  variable: "--font-nunito-sans"
 });
 
 const instrumentSerif = Instrument_Serif({ 
@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${instrumentSerif.variable} font-sans antialiased`}>
+      <body className={`${nunitoSans.variable} ${instrumentSerif.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
