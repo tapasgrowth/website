@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -34,16 +36,23 @@ export function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg"
+              onClick={() => window.open('https://cal.com/jonathandparra/30min', '_blank')}
             >
               Reserve Your Consultation
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="border-2 font-semibold px-8 py-6 text-lg"
+              onClick={() => {
+                document.getElementById('services')?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }}
             >
               View the Menu
             </Button>

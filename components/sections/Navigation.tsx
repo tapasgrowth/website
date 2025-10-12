@@ -34,11 +34,17 @@ export function Navigation() {
           </NavigationMenuList>
         </NavigationMenu>
 
-        <Button 
-          variant="default" 
+        <Button
+          variant="default"
           className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+          onClick={() => {
+            document.getElementById('services')?.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }}
         >
-          Book a Table
+          View the Menu
         </Button>
       </nav>
     </header>
