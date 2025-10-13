@@ -8,7 +8,20 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
-const menuItems = [
+type MenuItem = {
+    name: string;
+    description: string;
+    price: string;
+    tag?: string;
+};
+
+type MenuCategory = {
+    category: string;
+    description: string;
+    items: MenuItem[];
+};
+
+const menuItems: MenuCategory[] = [
     {
         category: "Memberships",
         description: "Ongoing growth partnerships tailored to your stage",
