@@ -91,8 +91,8 @@ export function ServicesMenu() {
                 </div>
 
                 <div className="max-w-4xl mx-auto">
-                    <Card className="border-2 shadow-xl">
-                        <CardHeader className="text-center pb-8 bg-gradient-to-b from-primary/5 to-transparent">
+                    <Card className="border-2 shadow-xl bg-gradient-to-b from-primary/5 to-transparent">
+                        <CardHeader className="text-center pb-8">
                             <CardTitle className="text-3xl font-serif">
                                 Growth Services
                             </CardTitle>

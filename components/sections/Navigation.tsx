@@ -26,11 +26,6 @@ export function Navigation() {
                 About
               </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="#testimonials" className="px-4 py-2 text-sm font-medium transition-colors hover:text-primary">
-                Reviews
-              </Link>
-            </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
 
