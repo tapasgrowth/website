@@ -1,61 +1,59 @@
-import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
+import { COMPANY } from "@/lib/constants";
 
 export function Footer() {
-    return (
-        <footer className="bg-card border-t">
-            <div className="container mx-auto px-6 py-12">
-                <div className="grid md:grid-cols-4 gap-8">
-                    <div className="md:col-span-2">
-                        <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-serif">
-                            Tapas Growth Inc.
-                        </h3>
-                        <p className="text-muted-foreground mb-4">
-                            Serving premium growth strategies for consumer apps.
-                            Small plates, big results.
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                            © 2025 Tapas Growth Inc. All rights reserved.
-                        </p>
-                    </div>
+  return (
+    <footer className="bg-muted/30 border-t border-border py-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Column 1: Brand */}
+          <div>
+            <p className="font-heading font-medium text-lg">
+              {COMPANY.name}
+            </p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Growth consulting for consumer apps. Remote, worldwide.
+            </p>
+          </div>
 
-                    <div>
-                        <h4 className="font-semibold mb-4">Quick Links</h4>
-                        <ul className="space-y-2 text-sm">
-                            <li>
-                                <Link
-                                    href="#services"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
-                                >
-                                    Services Menu
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="#about"
-                                    className="text-muted-foreground hover:text-primary transition-colors"
-                                >
-                                    About
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+          {/* Column 2: Quick links */}
+          <div>
+            <p className="font-heading font-medium text-sm mb-3">Quick Links</p>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="#services"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Menu
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#pricing"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Pricing
+                </a>
+              </li>
+            </ul>
+          </div>
 
-                    <div>
-                        <h4 className="font-semibold mb-4">Get in Touch</h4>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li>hello@tapasgrowth.com</li>
-                            <li>Book a consultation</li>
-                        </ul>
-                    </div>
-                </div>
+          {/* Column 3: Contact */}
+          <div>
+            <p className="font-heading font-medium text-sm mb-3">Contact</p>
+            <a
+              href={`mailto:${COMPANY.email}`}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {COMPANY.email}
+            </a>
+          </div>
+        </div>
 
-                <Separator className="my-8" />
-
-                <div className="text-center text-sm text-muted-foreground">
-                    <p>Crafted with care. Built for growth. Ready to scale.</p>
-                </div>
-            </div>
-        </footer>
-    );
+        <div className="mt-10 pt-6 border-t border-border text-center text-xs text-muted-foreground">
+          &copy; 2025 {COMPANY.legalName} All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
 }
