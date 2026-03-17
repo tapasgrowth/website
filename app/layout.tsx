@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Instrument_Sans } from "next/font/google";
+import { Geist } from "next/font/google";
+import localFont from "next/font/local";
+import { FAQ_ITEMS } from "@/lib/constants";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -7,21 +9,33 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const instrumentSans = Instrument_Sans({
-  variable: "--font-instrument-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const ppMondwest = localFont({
+  src: [
+    { path: "./fonts/PPMondwest-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/PPMondwest-Bold.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-pp-mondwest",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tapasgrowth.com"),
   title: {
-    default: "Tapas Growth | App Growth Consulting & Optimization",
+    default:
+      "Paywall Optimization & App Subscription Growth Agency | Tapas Growth",
     template: "%s | Tapas Growth",
   },
   description:
-    "Grow your consumer app with expert A/B testing, paywall design, ASO, and onboarding optimization. 100M+ users impacted across 50+ apps.",
+    "Tapas Growth designs high-converting paywalls and runs A/B experiments for subscription apps using RevenueCat, Superwall, and Adapty. $50M+ in app revenue driven across 50+ consumer apps. Book a free revenue audit.",
   keywords: [
+    "paywall optimization agency",
+    "paywall design agency",
+    "paywall conversion optimization",
+    "subscription app revenue growth",
+    "mobile paywall A/B testing",
+    "RevenueCat optimization consultant",
+    "consumer app monetization",
+    "app revenue leak audit",
     "app growth consulting",
     "mobile app growth agency",
     "app store optimization",
@@ -39,7 +53,6 @@ export const metadata: Metadata = {
     "increase app revenue",
     "mobile app retention",
     "custom paywall design",
-    "saas app growth strategy",
   ],
   authors: [{ name: "Tapas Growth Inc." }],
   creator: "Tapas Growth Inc.",
@@ -48,9 +61,10 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Tapas Growth | App Growth Consulting & Optimization",
+    title:
+      "Paywall Optimization & App Subscription Growth Agency | Tapas Growth",
     description:
-      "Expert app growth consulting: A/B testing, paywall design, ASO, and onboarding optimization. 100M+ users impacted across 50+ apps.",
+      "Tapas Growth designs high-converting paywalls and runs A/B experiments for subscription apps. $50M+ in app revenue driven across 50+ consumer apps.",
     type: "website",
     locale: "en_US",
     siteName: "Tapas Growth",
@@ -60,15 +74,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tapas Growth - App Growth Consulting",
+        alt: "Tapas Growth - Paywall Optimization & App Subscription Growth Agency",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tapas Growth | App Growth Consulting & Optimization",
+    title:
+      "Paywall Optimization & App Subscription Growth Agency | Tapas Growth",
     description:
-      "Expert app growth consulting: A/B testing, paywall design, ASO, and onboarding optimization. 100M+ users impacted across 50+ apps.",
+      "Tapas Growth designs high-converting paywalls and runs A/B experiments for subscription apps. $50M+ in app revenue driven across 50+ consumer apps.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -84,6 +99,19 @@ export const metadata: Metadata = {
   },
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ_ITEMS.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
@@ -91,7 +119,7 @@ const jsonLd = {
   url: "https://tapasgrowth.com",
   email: "hello@tapasgrowth.com",
   description:
-    "Consumer app growth consulting specializing in A/B testing, paywall design, ASO, and onboarding optimization. Over 100M users impacted across 50+ apps.",
+    "Consumer app growth agency specializing in paywall optimization, A/B testing, and subscription revenue growth. $50M+ in app revenue driven across 50+ consumer apps.",
   foundingDate: "2015",
   image: "https://tapasgrowth.com/og-image.png",
   priceRange: "$$$$",
@@ -99,12 +127,43 @@ const jsonLd = {
     "@type": "Place",
     name: "Worldwide",
   },
+  founder: [
+    {
+      "@type": "Person",
+      name: "Jonathan Parra",
+      jobTitle: "Co-Founder & Paywall Architect",
+      description:
+        "Designed over 4,500 mobile app paywalls. Specialist in paywall conversion optimization for consumer subscription apps.",
+      knowsAbout: [
+        "Paywall Design",
+        "Subscription Revenue Optimization",
+        "Mobile App A/B Testing",
+        "RevenueCat Integration",
+        "Superwall Paywall Implementation",
+      ],
+    },
+    {
+      "@type": "Person",
+      name: "Sofie Mor",
+      jobTitle: "Co-Founder & Growth Lead",
+      description:
+        "Full-funnel growth expert for consumer apps. Specializes in onboarding optimization, lifecycle marketing, and building scalable revenue systems.",
+      knowsAbout: [
+        "Consumer App Growth",
+        "Onboarding Optimization",
+        "Lifecycle Marketing",
+        "App Store Optimization",
+        "User Retention",
+      ],
+    },
+  ],
   serviceType: [
-    "App Growth Consulting",
-    "A/B Testing & Experimentation",
-    "App Store Optimization (ASO)",
     "Paywall Design & Optimization",
+    "A/B Testing & Experimentation",
+    "Subscription Pricing Strategy",
     "Onboarding Design & Optimization",
+    "App Store Optimization (ASO)",
+    "Lifecycle Marketing",
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -114,27 +173,44 @@ const jsonLd = {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "A/B Testing & Experimentation",
+          name: "Growth",
           description:
-            "Data-driven experimentation to optimize conversion rates, retention, and revenue for consumer apps.",
+            "Rev-share partnership: $1,500/mo base + 20% of revenue above baseline. Unlimited paywall experiments, onboarding optimization, and weekly strategy updates.",
+        },
+        price: "1500",
+        priceCurrency: "USD",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "1500",
+          priceCurrency: "USD",
+          unitText: "MONTH",
+          description: "Base fee plus 20% of attributed revenue above baseline",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Paywall Design & Optimization",
+          name: "Scale",
           description:
-            "Custom paywall design for Superwall, RevenueCat, and Adapty to maximize subscription revenue.",
+            "Full-service scaling: $7,000/mo flat rate. Dedicated growth leadership, aggressive experiment velocity, full onboarding & lifecycle redesigns, and comprehensive ASO.",
+        },
+        price: "7000",
+        priceCurrency: "USD",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "7000",
+          priceCurrency: "USD",
+          unitText: "MONTH",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "App Store Optimization (ASO)",
+          name: "Paywall Design & A/B Testing",
           description:
-            "Keyword optimization, listing design, and conversion rate optimization for the App Store and Google Play.",
+            "Custom paywall design and rapid A/B experimentation for Superwall, RevenueCat, and Adapty to maximize subscription revenue.",
         },
       },
       {
@@ -159,6 +235,11 @@ const jsonLd = {
     "RevenueCat",
     "Superwall",
     "Adapty",
+    "RevenueCat Integration",
+    "Superwall Paywall Implementation",
+    "Adapty Paywall Management",
+    "Trial-to-Paid Conversion",
+    "Paywall A/B Testing",
   ],
   sameAs: [],
 };
@@ -175,9 +256,13 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
       </head>
       <body
-        className={`${geistSans.variable} ${instrumentSans.variable} antialiased font-sans`}
+        className={`${geistSans.variable} ${ppMondwest.variable} antialiased font-sans`}
       >
         {children}
       </body>

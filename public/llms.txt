@@ -1,0 +1,21 @@
+# Tapas Growth
+> Paywall optimization and subscription growth agency for consumer apps.
+
+Tapas Growth is a consumer app growth agency that designs high-converting paywalls
+and runs A/B experiments for subscription apps. Specialists in RevenueCat, Superwall,
+and Adapty optimization.
+
+## Services
+- Paywall Design & A/B Testing
+- Subscription Pricing Strategy
+- Onboarding Optimization
+- ASO & Lifecycle Marketing
+
+## Key Facts
+- $50M+ in app revenue driven
+- 10,000+ paywalls optimized
+- 50+ consumer apps scaled
+
+## Contact
+- Website: https://tapasgrowth.com
+- Email: hello@tapasgrowth.com

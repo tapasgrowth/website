@@ -51,7 +51,8 @@ pnpm lint
     Navigation.tsx      # Sticky nav with mobile menu
     Hero.tsx            # Hero with particle background + animated text
     Stats.tsx           # Animated stat counters
-    MenuSection.tsx      # Unified menu: services list + pricing tiers
+    MenuSection.tsx      # Services list ("The Menu")
+    PricingSection.tsx   # Pricing tier cards with Stripe checkout
     Footer.tsx           # Site footer
   /animations           # Framer Motion wrapper components
     FadeInView.tsx       # Scroll-triggered fade-in
@@ -76,7 +77,7 @@ pnpm lint
 
 4. **Self-serve checkout**: Stripe payment links (external URLs) — no Stripe SDK integration. Links stored in `/lib/constants.ts`.
 
-5. **Typography**: Instrument Sans for headings, Geist for body text. Headings use `font-heading` class applied globally.
+5. **Typography**: PPMondwest (local bitmap/display font) for headings, Geist for body text. Headings use `font-heading` class applied globally. PPMondwest only has Regular (400) and Bold (700) weights — never use `font-medium` (500) on heading elements as it would cause browser synthesis.
 
 6. **Animations**: Framer Motion for scroll-triggered reveals and counters. Custom canvas Particles for hero background. SplitText for animated headline.
 

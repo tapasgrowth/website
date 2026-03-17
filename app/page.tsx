@@ -1,9 +1,14 @@
 import { Navigation } from "@/components/sections/Navigation";
 import { Hero } from "@/components/sections/Hero";
-import { ProblemAgitation } from "@/components/sections/ProblemAgitation";
 import { Stats } from "@/components/sections/Stats";
-import { AboutChef } from "@/components/sections/AboutChef";
+import { ProblemAgitation } from "@/components/sections/ProblemAgitation";
+import { HowItWorks } from "@/components/sections/HowItWorks";
+import { AboutJonathan } from "@/components/sections/AboutJonathan";
+import { AboutSofie } from "@/components/sections/AboutSofie";
 import { MenuSection } from "@/components/sections/MenuSection";
+import { PricingSection } from "@/components/sections/PricingSection";
+import { FAQ } from "@/components/sections/FAQ";
+import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/sections/Footer";
 
 export default function Home() {
@@ -12,10 +17,15 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <ProblemAgitation />
         <Stats />
-        <AboutChef />
+        <ProblemAgitation />
+        <HowItWorks />
+        <AboutJonathan />
+        <AboutSofie />
         <MenuSection />
+        <PricingSection />
+        <FAQ />
+        <FinalCTA />
       </main>
       <Footer />
     </>
