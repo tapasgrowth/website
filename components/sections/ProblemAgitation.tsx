@@ -66,6 +66,7 @@ export function ProblemAgitation() {
                                 src="/assets/paywall-example.png"
                                 alt="Mobile app paywall design wireframe"
                                 fill
+                                sizes="(max-width: 1024px) 100vw, 50vw"
                                 className="object-cover"
                             />
 

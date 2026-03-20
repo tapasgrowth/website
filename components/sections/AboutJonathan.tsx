@@ -26,13 +26,13 @@ export function AboutJonathan() {
                                     The mind behind <span className="text-primary italic">4,500+</span> paywalls.
                                 </h2>
                                 <p className="text-base text-muted-foreground">
-                                    Jonathan Parra, Co-Founder
+                                    Jonathan Parra, Growth Designer & Co-Founder
                                 </p>
                             </div>
 
                             <div className="space-y-6 text-lg sm:text-xl text-muted-foreground leading-relaxed">
                                 <p>
-                                    In the last 2 years alone, I&apos;ve designed over 4,500 mobile app paywalls—more than anyone on Earth. I analyze $100k+ MRR paywalls all day for a living.
+                                    In the last 2 years alone, I&apos;ve designed over 4,500 mobile app paywalls—more than anyone on Earth. As a growth designer specializing in consumer apps, I analyze $100k+ MRR paywalls all day for a living.
                                 </p>
                                 <p>
                                     I&apos;m not just a designer. I join 6-9 growth calls a week with customers to see how experiments perform and close the loop. This sheer volume of reps has given me a sixth sense for what converts.
@@ -48,8 +48,9 @@ export function AboutJonathan() {
                             <div className="relative w-full rounded-[2rem] overflow-hidden shadow-2xl aspect-square transform hover:-translate-y-1 hover:shadow-primary/10 transition-all duration-500">
                                 <Image
                                     src="/assets/jonathan-portrait.jpeg"
-                                    alt="Jonathan Parra, Co-Founder at Tapas Growth"
+                                    alt="Jonathan Parra, Growth Designer and Co-Founder at Tapas Growth"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                             </div>

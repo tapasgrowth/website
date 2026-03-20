@@ -54,7 +54,13 @@ export const metadata: Metadata = {
     "mobile app retention",
     "custom paywall design",
   ],
-  authors: [{ name: "Tapas Growth Inc." }],
+  authors: [
+    { name: "Tapas Growth Inc." },
+    { name: "Jonathan Parra", url: "https://x.com/jondeparra" },
+  ],
+  other: {
+    "theme-color": "#ffffff",
+  },
   creator: "Tapas Growth Inc.",
   publisher: "Tapas Growth Inc.",
   alternates: {
@@ -71,9 +77,9 @@ export const metadata: Metadata = {
     url: "https://tapasgrowth.com",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "/og-header.jpg",
+        width: 1280,
+        height: 720,
         alt: "Tapas Growth - Paywall Optimization & App Subscription Growth Agency",
       },
     ],
@@ -84,7 +90,7 @@ export const metadata: Metadata = {
       "Paywall Optimization & App Subscription Growth Agency | Tapas Growth",
     description:
       "Tapas Growth designs high-converting paywalls and runs A/B experiments for subscription apps. $50M+ in app revenue driven across 50+ consumer apps.",
-    images: ["/og-image.png"],
+    images: ["/og-header.jpg"],
   },
   robots: {
     index: true,
@@ -97,6 +103,39 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://tapasgrowth.com/#jonathan-parra",
+  name: "Jonathan Parra",
+  jobTitle: "Growth Designer & Co-Founder",
+  description:
+    "Jonathan Parra is a growth designer and consumer app designer who has designed over 4,500 mobile app paywalls and driven $50M+ in subscription revenue across 55+ consumer apps. He specializes in paywall optimization, A/B testing, and mobile app growth strategy.",
+  url: "https://tapasgrowth.com",
+  image: "https://tapasgrowth.com/assets/jonathan-portrait.jpeg",
+  worksFor: {
+    "@id": "https://tapasgrowth.com/#organization",
+  },
+  knowsAbout: [
+    "Growth Design",
+    "Consumer App Design",
+    "Paywall Design",
+    "Mobile App Growth",
+    "A/B Testing",
+    "Subscription Revenue Optimization",
+    "RevenueCat",
+    "Superwall",
+    "Adapty",
+    "User Onboarding",
+    "Conversion Rate Optimization",
+    "Mobile App Monetization",
+  ],
+  sameAs: [
+    "https://x.com/jondeparra",
+    "https://www.linkedin.com/in/jondeparra",
+  ],
 };
 
 const faqSchema = {
@@ -115,33 +154,21 @@ const faqSchema = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "https://tapasgrowth.com/#organization",
   name: "Tapas Growth Inc.",
   url: "https://tapasgrowth.com",
   email: "hello@tapasgrowth.com",
   description:
-    "Consumer app growth agency specializing in paywall optimization, A/B testing, and subscription revenue growth. $50M+ in app revenue driven across 50+ consumer apps.",
+    "Consumer app growth agency specializing in growth design, paywall optimization, A/B testing, and subscription revenue growth. $50M+ in app revenue driven across 55+ consumer apps.",
   foundingDate: "2015",
-  image: "https://tapasgrowth.com/og-image.png",
+  image: "https://tapasgrowth.com/og-header.jpg",
   priceRange: "$$$$",
   areaServed: {
     "@type": "Place",
     name: "Worldwide",
   },
   founder: [
-    {
-      "@type": "Person",
-      name: "Jonathan Parra",
-      jobTitle: "Co-Founder & Paywall Architect",
-      description:
-        "Designed over 4,500 mobile app paywalls. Specialist in paywall conversion optimization for consumer subscription apps.",
-      knowsAbout: [
-        "Paywall Design",
-        "Subscription Revenue Optimization",
-        "Mobile App A/B Testing",
-        "RevenueCat Integration",
-        "Superwall Paywall Implementation",
-      ],
-    },
+    { "@id": "https://tapasgrowth.com/#jonathan-parra" },
     {
       "@type": "Person",
       name: "Sofie Mor",
@@ -225,6 +252,8 @@ const jsonLd = {
     ],
   },
   knowsAbout: [
+    "Growth Design",
+    "Consumer App Design",
     "Mobile App Growth",
     "A/B Testing",
     "App Store Optimization",
@@ -241,7 +270,10 @@ const jsonLd = {
     "Trial-to-Paid Conversion",
     "Paywall A/B Testing",
   ],
-  sameAs: [],
+  sameAs: [
+    "https://x.com/tapasgrowth",
+    "https://www.linkedin.com/company/tapasgrowth",
+  ],
 };
 
 export default function RootLayout({
@@ -259,6 +291,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
         />
       </head>
       <body

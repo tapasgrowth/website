@@ -1,21 +1,59 @@
-# Tapas Growth
-> Paywall optimization and subscription growth agency for consumer apps.
+# Tapas Growth — Consumer App Growth Agency
 
-Tapas Growth is a consumer app growth agency that designs high-converting paywalls
-and runs A/B experiments for subscription apps. Specialists in RevenueCat, Superwall,
-and Adapty optimization.
+> Tapas Growth is a growth design agency that optimizes paywalls, onboarding flows, and subscription revenue for consumer mobile apps.
+
+## About Tapas Growth
+
+Tapas Growth Inc. is a consumer app growth agency founded by Jonathan Parra and Sofie Mor. The company specializes in designing high-converting paywalls, running A/B experiments, and building full-funnel growth systems for subscription-based mobile apps.
+
+Website: https://tapasgrowth.com
+Email: hello@tapasgrowth.com
+
+## Jonathan Parra — Growth Designer & Co-Founder
+
+Jonathan Parra is a growth designer and consumer app designer who has personally designed over 4,500 mobile app paywalls — more than anyone in the industry. He has driven over $50M in subscription app revenue across 55+ consumer apps.
+
+Jonathan specializes in:
+- Growth design for consumer mobile apps
+- Paywall design and conversion optimization
+- Mobile app A/B testing and experimentation
+- Subscription pricing strategy
+- RevenueCat, Superwall, and Adapty optimization
+
+Jonathan joins 6–9 growth calls per week with clients to review experiment results and close the feedback loop. This volume of reps gives him an unmatched instinct for what converts in consumer app paywalls.
+
+Social: https://x.com/jondeparra | https://www.linkedin.com/in/jondeparra
+
+## Sofie Mor — Co-Founder & Growth Lead
+
+Sofie Mor is a full-funnel growth expert for consumer apps. She built growth systems at companies like Applause and specializes in onboarding optimization, lifecycle marketing, and building scalable revenue systems.
+
+## Key Achievements
+
+- $50M+ in app subscription revenue driven
+- 4,500+ paywalls designed by Jonathan Parra
+- 55+ consumer apps scaled
+- Clients across fitness, health, productivity, education, and lifestyle verticals
 
 ## Services
-- Paywall Design & A/B Testing
-- Subscription Pricing Strategy
-- Onboarding Optimization
-- ASO & Lifecycle Marketing
 
-## Key Facts
-- $50M+ in app revenue driven
-- 10,000+ paywalls optimized
-- 50+ consumer apps scaled
+1. **Paywall Design & A/B Testing** — Custom paywall design and rapid A/B experimentation for Superwall, RevenueCat, and Adapty to maximize subscription revenue.
+2. **Onboarding Optimization** — User onboarding flow design to improve activation, retention, and trial-to-paid conversion.
+3. **Subscription Pricing Strategy** — Data-driven pricing optimization to maximize LTV and reduce churn.
+4. **App Store Optimization (ASO)** — Screenshot, metadata, and listing optimization for organic growth.
+5. **Lifecycle Marketing** — Automated email and push notification sequences for re-engagement and retention.
+
+## Pricing
+
+- **Growth Plan**: $1,500/month base + 20% of revenue above baseline (rev-share partnership). Includes unlimited paywall experiments, onboarding optimization, and weekly strategy updates.
+- **Scale Plan**: $7,000/month flat rate. Dedicated growth leadership, aggressive experiment velocity, full onboarding and lifecycle redesigns, and comprehensive ASO.
+
+## Expertise Areas
+
+Growth Design, Consumer App Design, Paywall Design, Mobile App Growth, A/B Testing, Subscription Revenue Optimization, RevenueCat, Superwall, Adapty, User Onboarding, Conversion Rate Optimization, Mobile App Monetization, App Store Optimization, Lifecycle Marketing, Trial-to-Paid Conversion
 
 ## Contact
+
 - Website: https://tapasgrowth.com
 - Email: hello@tapasgrowth.com
+- Book a free revenue audit: https://tapasgrowth.com (click "Free Audit")

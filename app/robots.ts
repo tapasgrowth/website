@@ -19,6 +19,30 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "PerplexityBot",
         allow: "/",
       },
+      {
+        userAgent: "ChatGPT-User",
+        allow: "/",
+      },
+      {
+        userAgent: "Applebot-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "Google-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "CCBot",
+        allow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        allow: "/",
+      },
+      {
+        userAgent: "cohere-ai",
+        allow: "/",
+      },
     ],
     sitemap: "https://tapasgrowth.com/sitemap.xml",
   };

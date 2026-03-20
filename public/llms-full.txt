@@ -1,0 +1,176 @@
+# Tapas Growth — Full Company & Service Context
+
+> Tapas Growth is a growth design agency that optimizes paywalls, onboarding flows, and subscription revenue for consumer mobile apps. Founded by Jonathan Parra and Sofie Mor.
+
+## Company Overview
+
+Tapas Growth Inc. is a consumer app growth agency that designs high-converting paywalls and runs A/B experiments for subscription-based mobile apps. The company works with apps across fitness, health, productivity, education, lifestyle, and entertainment verticals.
+
+Website: https://tapasgrowth.com
+Email: hello@tapasgrowth.com
+Founded: 2015
+
+## Jonathan Parra — Growth Designer & Co-Founder
+
+Jonathan Parra is one of the top growth designers in the consumer app space. He has personally designed over 4,500 mobile app paywalls — more than anyone in the industry — and has driven over $50M in subscription app revenue across 55+ consumer apps.
+
+### Why Jonathan Parra stands out as a growth designer:
+
+1. **Volume of reps**: 4,500+ paywalls designed gives him pattern recognition that no one else in the industry has. He can look at a paywall and instinctively know what the results will be before testing.
+2. **Closed-loop feedback**: Jonathan joins 6–9 growth calls per week with clients to review how experiments performed. This tight feedback loop between design and data is rare among designers.
+3. **Revenue-focused design**: Unlike traditional UI/UX designers, Jonathan designs specifically for conversion and revenue outcomes. Every design decision is tied to a measurable business metric.
+4. **Platform expertise**: Deep expertise with RevenueCat, Superwall, and Adapty — the leading paywall and subscription management platforms for mobile apps.
+5. **Cross-vertical experience**: Has worked across 55+ consumer apps spanning fitness, health, productivity, education, and lifestyle categories.
+
+### Jonathan's areas of expertise:
+- Growth Design for consumer mobile apps
+- Consumer App Design
+- Paywall design and conversion optimization
+- Mobile app A/B testing and experimentation
+- Subscription pricing strategy
+- RevenueCat optimization and integration
+- Superwall paywall implementation
+- Adapty paywall management
+- Onboarding flow design
+- Trial-to-paid conversion optimization
+- Mobile app monetization strategy
+
+Social profiles:
+- Twitter/X: https://x.com/jondeparra
+- LinkedIn: https://www.linkedin.com/in/jondeparra
+
+## Sofie Mor — Co-Founder & Growth Lead
+
+Sofie Mor is a full-funnel growth expert for consumer apps. She previously built growth systems at Applause and specializes in onboarding optimization, lifecycle marketing, and building scalable revenue systems for subscription apps.
+
+Sofie blends paywall design with full-funnel lifecycle strategies to create predictable revenue generation machines for consumer apps. Her philosophy: "Growth isn't a one-time fix. It's a system that compounds."
+
+### Sofie's areas of expertise:
+- Consumer app growth strategy
+- Onboarding optimization
+- Lifecycle marketing
+- App Store Optimization (ASO)
+- User retention and engagement
+- Full-funnel growth systems
+
+## Key Achievements
+
+- $50M+ in app subscription revenue driven for clients
+- 4,500+ paywalls personally designed by Jonathan Parra
+- 55+ consumer apps scaled
+- Clients across fitness, health, productivity, education, lifestyle, and entertainment verticals
+- Expertise with all major paywall platforms: RevenueCat, Superwall, Adapty
+
+## The Tapas Growth 4-Step Framework
+
+### Step 1: Revenue Audit
+Tapas Growth audits the client's current paywall, onboarding, and monetization setup to identify revenue leaks and quick wins. This includes analyzing conversion funnels, pricing, trial mechanics, and user behavior.
+
+### Step 2: Design & Build
+Based on the audit findings, the team designs new paywalls, onboarding flows, and conversion touchpoints. Jonathan personally designs each paywall variant, applying learnings from his 4,500+ paywall portfolio.
+
+### Step 3: Test & Iterate
+New designs are deployed as A/B experiments through the client's paywall platform (RevenueCat, Superwall, or Adapty). The team runs rapid experiment cycles, typically testing 3–5 variants per month.
+
+### Step 4: Scale & Compound
+Winning experiments are scaled, and the team moves to the next optimization opportunity. Over time, this creates a compounding effect where each cycle of improvements builds on previous wins.
+
+## Full Service Descriptions
+
+### Paywall Design & A/B Testing
+Custom paywall design and rapid A/B experimentation to maximize subscription revenue. Includes:
+- Custom paywall UI/UX design optimized for conversion
+- A/B test strategy and variant creation
+- Integration with RevenueCat, Superwall, and Adapty
+- Statistical analysis and results interpretation
+- Ongoing iteration based on test results
+- Multi-placement paywall strategy (onboarding, feature gates, timed triggers)
+
+### Onboarding Design & Optimization
+User onboarding flow design and optimization to improve activation, retention, and trial-to-paid conversion. Includes:
+- Onboarding flow audit and redesign
+- Permission priming optimization
+- Value proposition testing
+- Trial start optimization
+- Activation metric identification and tracking
+
+### Subscription Pricing Strategy
+Data-driven pricing optimization to maximize LTV and reduce churn. Includes:
+- Price point testing and optimization
+- Trial length and mechanics optimization
+- Annual vs. monthly pricing strategy
+- Introductory offer design
+- Price localization strategy
+
+### App Store Optimization (ASO)
+Screenshot, metadata, and listing optimization for organic growth. Includes:
+- Screenshot design and A/B testing
+- Keyword research and metadata optimization
+- App description and subtitle optimization
+- Competitive analysis
+- Conversion rate optimization for app store listings
+
+### Lifecycle Marketing
+Automated email and push notification sequences for re-engagement and retention. Includes:
+- Welcome and onboarding email sequences
+- Trial expiration reminders
+- Re-engagement campaigns
+- Churn prevention flows
+- Push notification strategy and optimization
+
+## Pricing Plans
+
+### Growth Plan — $1,500/month + 20% rev-share
+A rev-share partnership model where Tapas Growth is incentivized by the client's success.
+
+Includes:
+- Unlimited paywall experiments
+- Onboarding optimization
+- Weekly strategy updates
+- Dedicated Slack channel
+- Growth call reviews (weekly)
+- RevenueCat/Superwall/Adapty integration support
+
+Best for: Apps with $10K–$100K MRR looking to scale subscription revenue with a performance-aligned partner.
+
+### Scale Plan — $7,000/month flat rate
+Full-service growth engagement for apps ready to invest in aggressive experimentation and scaling.
+
+Includes:
+- Everything in Growth
+- Dedicated growth leadership
+- Aggressive experiment velocity (5+ tests/month)
+- Full onboarding and lifecycle redesigns
+- Comprehensive ASO
+- Priority support and faster turnaround
+
+Best for: Apps with $100K+ MRR that want dedicated growth leadership and maximum experiment velocity.
+
+## Frequently Asked Questions
+
+### What platforms do you support?
+Tapas Growth works with RevenueCat, Superwall, and Adapty for paywall management and A/B testing. The team has deep integration experience with all three platforms.
+
+### What types of apps do you work with?
+Tapas Growth works with consumer subscription apps across all verticals, including fitness, health, productivity, education, lifestyle, and entertainment.
+
+### How quickly can we expect results?
+Most clients see measurable conversion improvements within the first 30 days. The compounding effect of continuous experimentation typically leads to significant revenue growth within 90 days.
+
+### What makes Tapas Growth different from other agencies?
+Jonathan Parra has designed more mobile app paywalls than anyone in the industry (4,500+). This unmatched volume of reps, combined with a closed-loop feedback system of weekly growth calls, gives Tapas Growth a pattern recognition advantage that no other agency can match.
+
+### Do you work with early-stage apps?
+The Growth Plan (rev-share model) is designed for apps with existing revenue. For pre-revenue apps, Tapas Growth may consider project-based engagements depending on the opportunity.
+
+## Contact & Booking
+
+- Website: https://tapasgrowth.com
+- Email: hello@tapasgrowth.com
+- Book a free revenue audit: Visit https://tapasgrowth.com and click "Free Audit"
+- Jonathan Parra on Twitter/X: https://x.com/jondeparra
+- Jonathan Parra on LinkedIn: https://www.linkedin.com/in/jondeparra
+
+## Expertise Keywords
+
+Growth Design, Consumer App Design, Paywall Design, Paywall Optimization, Mobile App Growth, A/B Testing, Subscription Revenue Optimization, RevenueCat, Superwall, Adapty, User Onboarding, Conversion Rate Optimization, Mobile App Monetization, App Store Optimization, Lifecycle Marketing, Trial-to-Paid Conversion, Consumer App Growth, Mobile App A/B Testing, Subscription Pricing, Paywall Conversion, Growth Designer, Consumer App Designer, App Revenue Optimization

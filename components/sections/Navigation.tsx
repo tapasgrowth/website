@@ -17,7 +17,7 @@ export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50">
+    <nav aria-label="Main navigation" className="fixed top-0 left-0 right-0 z-50">
       {/* Desktop floating tab bar */}
       <div className="hidden md:flex justify-center pt-4 pb-2">
         <div className="flex items-center gap-1 rounded-full bg-background/80 backdrop-blur-md border border-border px-2 py-1.5 shadow-lg">

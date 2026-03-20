@@ -52,6 +52,7 @@ export function AboutSofie() {
                                     src="/assets/sofie-portrait.jpeg"
                                     alt="Sofie Mor, Co-Founder at Tapas Growth"
                                     fill
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
                                     className="object-cover"
                                 />
                             </div>
