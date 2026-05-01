@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import localFont from "next/font/local";
+import { Agentation } from "agentation";
 import { FAQ_ITEMS } from "@/lib/constants";
 import "./globals.css";
 
@@ -200,9 +201,9 @@ const jsonLd = {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Growth",
+          name: "À La Carte Experiment",
           description:
-            "Rev-share partnership: $1,500/mo base + 20% of revenue above baseline. Unlimited paywall experiments, onboarding optimization, and weekly strategy updates.",
+            "Single fully-managed onboarding or other placement experiment: hypothesis design, custom design in Figma or any no-code builder, statistical analysis, and written next-steps recommendation. $1,500 flat — one-time, no subscription.",
         },
         price: "1500",
         priceCurrency: "USD",
@@ -210,8 +211,8 @@ const jsonLd = {
           "@type": "UnitPriceSpecification",
           price: "1500",
           priceCurrency: "USD",
-          unitText: "MONTH",
-          description: "Base fee plus 20% of attributed revenue above baseline",
+          unitText: "EACH",
+          description: "Flat per-experiment fee, paid once",
         },
       },
       {
@@ -220,7 +221,7 @@ const jsonLd = {
           "@type": "Service",
           name: "Scale",
           description:
-            "Full-service scaling: $7,000/mo flat rate. Dedicated growth leadership, aggressive experiment velocity, full onboarding & lifecycle redesigns, and comprehensive ASO.",
+            "Full-service scaling: $7,000/mo flat rate. Unlimited experiments and design requests, dedicated growth leadership, aggressive experiment velocity (2–3/week), and a monthly experimentation strategy doc written with you.",
         },
         price: "7000",
         priceCurrency: "USD",
@@ -301,6 +302,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${ppMondwest.variable} antialiased font-sans`}
       >
         {children}
+        {process.env.NODE_ENV === "development" && <Agentation />}
       </body>
     </html>
   );

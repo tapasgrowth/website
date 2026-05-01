@@ -12,7 +12,7 @@ import { COMPANY, PRICING } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 const tiers = [
-  { key: "growth" as const, tier: PRICING.growth, highlight: false, direction: "left" as const },
+  { key: "experiment" as const, tier: PRICING.experiment, highlight: false, direction: "left" as const },
   { key: "scale" as const, tier: PRICING.scale, highlight: true, direction: "right" as const },
 ];
 
@@ -54,9 +54,9 @@ export function PricingSection() {
                 >
                   <CardHeader>
                     <CardTitle className="text-2xl sm:text-3xl">{tier.name}</CardTitle>
-                    {!highlight && "badge" in tier && (
+                    {"subtitle" in tier && tier.subtitle && (
                       <p className="text-sm italic text-muted-foreground mt-1">
-                        {tier.badge}
+                        {tier.subtitle}
                       </p>
                     )}
                     <div className="mt-4">
@@ -114,7 +114,15 @@ export function PricingSection() {
                       size="lg"
                       asChild
                     >
-                      <a href={COMPANY.bookingUrl} target="_blank" rel="noopener">
+                      <a
+                        href={
+                          tier.stripeLink.includes("PLACEHOLDER")
+                            ? COMPANY.bookingUrl
+                            : tier.stripeLink
+                        }
+                        target="_blank"
+                        rel="noopener"
+                      >
                         {tier.cta}
                       </a>
                     </Button>

@@ -7,7 +7,7 @@ export const COMPANY = {
 } as const;
 
 export const STRIPE_LINKS = {
-  growth: "https://buy.stripe.com/PLACEHOLDER_GROWTH",
+  experiment: "https://buy.stripe.com/cNi8wP1LhaMdazJ9z1aR205",
   scale: "https://buy.stripe.com/PLACEHOLDER_SCALE",
 } as const;
 
@@ -74,9 +74,9 @@ export const FAQ_ITEMS = [
       "Consumer subscription apps making $50K+/mo in revenue. We specialize in health, fitness, productivity, lifestyle, and media apps — any category where subscriptions drive the business.",
   },
   {
-    question: "How does the rev-share model work?",
+    question: "How does the à la carte experiment work?",
     answer:
-      "We establish a revenue baseline when we start. You pay a $1,500/mo base fee plus 20% of revenue above that baseline. If we don't grow your revenue, you only pay the base — we have skin in the game.",
+      "Pick one onboarding flow or other placement you want to test. We design the hypothesis, build the variants, run the experiment, and deliver a written analysis with next steps. One flat $1,500 fee — one-time, no subscription, no commitment.",
   },
   {
     question: "How quickly will I see results?",
@@ -96,52 +96,49 @@ export const FAQ_ITEMS = [
   {
     question: "What's the minimum commitment?",
     answer:
-      "Growth: 3-month initial commitment, then month-to-month. Scale: month-to-month from day one. No long-term lock-ins.",
+      "À La Carte: one-time, no commitment. Scale: month-to-month from day one. No long-term lock-ins.",
   },
   {
     question: "How is Tapas Growth different from other agencies?",
     answer:
-      "4,500+ paywalls designed, two co-founders with complementary skills (paywall design + full-funnel growth), and a rev-share model that aligns our incentives with yours. We don't just advise — we execute.",
+      "4,500+ paywalls designed, two co-founders with complementary skills (paywall design + full-funnel growth), and a low-risk à la carte option so you can test the kitchen before committing. We don't just advise — we execute.",
   },
 ] as const;
 
 export const PRICING = {
-  growth: {
-    name: "Growth",
-    // badge: "Performance-Based",
+  experiment: {
+    name: "À La Carte",
+    subtitle: "Single Experiment",
     price: "$1,500",
-    priceDetail: "/mo + 20% of revenue above baseline",
-    commitment: "3-month commitment, then month-to-month",
-    qualifier: "For apps making $50K+/mo",
-    valueProp: "We only make money when you make money.",
-    cta: "Get Started",
+    priceDetail: "per experiment",
+    commitment: "One-time, no subscription",
+    qualifier: "For apps that want to optimize one placement",
+    valueProp: "One fully-managed experiment. Zero strings attached.",
+    cta: "Run an Experiment",
     features: [
-      "Unlimited paywall experiments",
-      "Price packaging design & testing",
-      "Onboarding conversion optimization",
-      "Revenue leak audit & monitoring",
-      "Weekly strategy & performance updates",
-      "Everything on the menu",
-      "Slack access",
+      "One end-to-end onboarding or other placement experiment",
+      "Hypothesis & success-metric definition",
+      "Custom design in Figma or any no-code builder",
+      "Statistical analysis & written write-up",
+      "Recommended next steps",
     ],
-    stripeLink: STRIPE_LINKS.growth,
+    stripeLink: STRIPE_LINKS.experiment,
   },
   scale: {
     name: "Scale",
     badge: "Most Popular",
+    subtitle: "Complete lifecycle management",
     price: "$7,000",
     priceDetail: "/mo flat rate",
     commitment: "Month-to-month — cancel anytime",
-    qualifier: "For apps ready to dominate their category",
-    valueProp: "No rev-share. Predictable costs, maximum growth.",
+    qualifier: "For apps that want complete experimentation coverage",
+    valueProp: "Unlimited experiments and design requests",
     cta: "Start Scaling",
     features: [
-      "Everything in Growth Partner",
+      "Everything on the menu",
       "Dedicated growth strategy leadership",
       "Aggressive experiment velocity (2–3/week)",
-      "Full onboarding & lifecycle redesigns",
-      "Comprehensive ASO & keyword management",
-      "Custom user psychographic modeling",
+      "Strategy doc written with you to map full month's experimentation",
       "Priority execution across all services",
     ],
     stripeLink: STRIPE_LINKS.scale,
