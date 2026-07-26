@@ -120,31 +120,30 @@ Automated email and push notification sequences for re-engagement and retention.
 
 ## Pricing Plans
 
-### Growth Plan — $1,500/month + 20% rev-share
-A rev-share partnership model where Tapas Growth is incentivized by the client's success.
+### À La Carte Experiment — $1,500 per experiment
+A one-time, fully managed experiment for apps that want to optimize one onboarding flow or other placement without a subscription.
 
 Includes:
-- Unlimited paywall experiments
-- Onboarding optimization
-- Weekly strategy updates
-- Dedicated Slack channel
-- Growth call reviews (weekly)
-- RevenueCat/Superwall/Adapty integration support
+- One end-to-end onboarding or placement experiment
+- Hypothesis and success-metric definition
+- Custom design in Figma or a no-code builder
+- Statistical analysis and written findings
+- Recommended next steps
 
-Best for: Apps with $10K–$100K MRR looking to scale subscription revenue with a performance-aligned partner.
+Best for: Apps that want to test one focused optimization with no ongoing commitment.
 
-### Scale Plan — $7,000/month flat rate
-Full-service growth engagement for apps ready to invest in aggressive experimentation and scaling.
+### Growth Plan — $5,000/month, paid upfront
+A monthly package for apps ready to run four focused growth experiments. The package saves $1,000 versus purchasing four À La Carte experiments.
 
 Includes:
-- Everything in Growth
+- Four complete experiment or design packages per month
+- Paywall, pricing, or onboarding audit and redesign packages
 - Dedicated growth leadership
-- Aggressive experiment velocity (5+ tests/month)
-- Full onboarding and lifecycle redesigns
-- Comprehensive ASO
-- Priority support and faster turnaround
+- Monthly experimentation strategy
+- Month-to-month flexibility
+- No rollover for unused packages
 
-Best for: Apps with $100K+ MRR that want dedicated growth leadership and maximum experiment velocity.
+Best for: Apps with $100K+ MRR that want dedicated growth leadership and predictable monthly experiment capacity.
 
 ## Frequently Asked Questions
 
@@ -161,7 +160,7 @@ Most clients see measurable conversion improvements within the first 30 days. Th
 Jonathan Parra has designed more mobile app paywalls than anyone in the industry (4,500+). This unmatched volume of reps, combined with a closed-loop feedback system of weekly growth calls, gives Tapas Growth a pattern recognition advantage that no other agency can match.
 
 ### Do you work with early-stage apps?
-The Growth Plan (rev-share model) is designed for apps with existing revenue. For pre-revenue apps, Tapas Growth may consider project-based engagements depending on the opportunity.
+The Growth Plan is best suited to consumer subscription apps making $50K+ per month. Early-stage apps can start with an À La Carte experiment when a focused optimization is the better fit.
 
 ## Contact & Booking
 

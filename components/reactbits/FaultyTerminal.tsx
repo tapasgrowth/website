@@ -275,7 +275,7 @@ export default function FaultyTerminal({
   const frozenTimeRef = useRef(0);
   const rafRef = useRef(0);
   const loadAnimationStartRef = useRef(0);
-  const timeOffsetRef = useRef(Math.random() * 100);
+  const timeOffsetRef = useRef(0);
 
   const resolvedDpr = useMemo(
     () => dpr ?? (typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1),
@@ -298,6 +298,8 @@ export default function FaultyTerminal({
   useEffect(() => {
     const ctn = containerRef.current;
     if (!ctn) return;
+
+    timeOffsetRef.current = Math.random() * 100;
 
     const renderer = new Renderer({ dpr: resolvedDpr, alpha: true, premultipliedAlpha: false });
     rendererRef.current = renderer;
@@ -405,7 +407,6 @@ export default function FaultyTerminal({
       if (gl.canvas.parentElement === ctn) ctn.removeChild(gl.canvas);
       gl.getExtension('WEBGL_lose_context')?.loseContext();
       loadAnimationStartRef.current = 0;
-      timeOffsetRef.current = Math.random() * 100;
     };
   }, [
     resolvedDpr,

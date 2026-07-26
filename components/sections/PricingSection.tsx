@@ -1,5 +1,4 @@
 import { FadeInView } from "@/components/animations/FadeInView";
-import { OrnamentalDivider } from "@/components/ui/ornamental-divider";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -13,7 +12,7 @@ import { cn } from "@/lib/utils";
 
 const tiers = [
   { key: "experiment" as const, tier: PRICING.experiment, highlight: false, direction: "left" as const },
-  { key: "scale" as const, tier: PRICING.scale, highlight: true, direction: "right" as const },
+  { key: "growth" as const, tier: PRICING.growth, highlight: true, direction: "right" as const },
 ];
 
 export function PricingSection() {
