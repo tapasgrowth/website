@@ -8,7 +8,7 @@ export const COMPANY = {
 
 export const STRIPE_LINKS = {
   experiment: "https://buy.stripe.com/cNi8wP1LhaMdazJ9z1aR205",
-  scale: "https://buy.stripe.com/PLACEHOLDER_SCALE",
+  growth: "https://buy.stripe.com/8x2eVdfC71bD0Z94eHaR201",
 } as const;
 
 export const SERVICES = [
@@ -96,7 +96,7 @@ export const FAQ_ITEMS = [
   {
     question: "What's the minimum commitment?",
     answer:
-      "À La Carte: one-time, no commitment. Scale: month-to-month from day one. No long-term lock-ins.",
+      "À La Carte: one-time, no commitment. Growth: month-to-month from day one. No long-term lock-ins.",
   },
   {
     question: "How is Tapas Growth different from other agencies?",
@@ -124,24 +124,24 @@ export const PRICING = {
     ],
     stripeLink: STRIPE_LINKS.experiment,
   },
-  scale: {
-    name: "Scale",
+  growth: {
+    name: "Growth",
     badge: "Most Popular",
-    subtitle: "Complete lifecycle management",
-    price: "$7,000",
-    priceDetail: "/mo flat rate",
+    subtitle: "Four-experiment package",
+    price: "$5,000",
+    priceDetail: "/mo, paid upfront",
     commitment: "Month-to-month — cancel anytime",
-    qualifier: "For apps that want complete experimentation coverage",
-    valueProp: "Unlimited experiments and design requests",
-    cta: "Start Scaling",
+    qualifier: "For apps ready to run four focused growth experiments per month",
+    valueProp: "Four complete experiment or design packages each month",
+    cta: "Choose Growth",
     features: [
-      "Everything on the menu",
+      "Four complete experiments or design packages",
+      "Paywall, pricing, or onboarding audit and redesign packages",
+      "Save $1,000 versus four À La Carte experiments",
       "Dedicated growth strategy leadership",
-      "Aggressive experiment velocity (2–3/week)",
-      "Strategy doc written with you to map full month's experimentation",
-      "Priority execution across all services",
+      "Monthly experimentation strategy mapped with you",
+      "Unused packages do not roll over",
     ],
-    stripeLink: STRIPE_LINKS.scale,
+    stripeLink: STRIPE_LINKS.growth,
   },
 } as const;
-

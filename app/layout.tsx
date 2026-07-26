@@ -219,17 +219,18 @@ const jsonLd = {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Scale",
+          name: "Growth",
           description:
-            "Full-service scaling: $7,000/mo flat rate. Unlimited experiments and design requests, dedicated growth leadership, aggressive experiment velocity (2–3/week), and a monthly experimentation strategy doc written with you.",
+            "Four complete experiment or design packages for $5,000 per month, paid upfront. Packages can cover paywall, pricing, or onboarding audit and redesign work. Includes dedicated growth leadership and a monthly experimentation strategy. Unused packages do not roll over. Save $1,000 versus four À La Carte experiments.",
         },
-        price: "7000",
+        price: "5000",
         priceCurrency: "USD",
         priceSpecification: {
           "@type": "UnitPriceSpecification",
-          price: "7000",
+          price: "5000",
           priceCurrency: "USD",
           unitText: "MONTH",
+          description: "Paid upfront for four experiment or design packages per month",
         },
       },
       {
