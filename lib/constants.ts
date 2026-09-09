@@ -128,7 +128,7 @@ export const PRICING = {
     name: "Scale",
     badge: "Most Popular",
     subtitle: "Complete lifecycle management",
-    price: "$7,000",
+    price: "$5,000",
     priceDetail: "/mo flat rate",
     commitment: "Month-to-month — cancel anytime",
     qualifier: "For apps that want complete experimentation coverage",

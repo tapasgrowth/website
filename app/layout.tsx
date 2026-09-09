@@ -221,13 +221,13 @@ const jsonLd = {
           "@type": "Service",
           name: "Scale",
           description:
-            "Full-service scaling: $7,000/mo flat rate. Unlimited experiments and design requests, dedicated growth leadership, aggressive experiment velocity (2–3/week), and a monthly experimentation strategy doc written with you.",
+            "Full-service scaling: $5,000/mo flat rate. Unlimited experiments and design requests, dedicated growth leadership, aggressive experiment velocity (2–3/week), and a monthly experimentation strategy doc written with you.",
         },
-        price: "7000",
+        price: "5000",
         priceCurrency: "USD",
         priceSpecification: {
           "@type": "UnitPriceSpecification",
-          price: "7000",
+          price: "5000",
           priceCurrency: "USD",
           unitText: "MONTH",
         },

@@ -1,5 +1,4 @@
 import { FadeInView } from "@/components/animations/FadeInView";
-import { OrnamentalDivider } from "@/components/ui/ornamental-divider";
 import { Button } from "@/components/ui/button";
 import {
   Card,
